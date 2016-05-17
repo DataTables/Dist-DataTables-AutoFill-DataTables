@@ -5,6 +5,7 @@
     "files": [
         "css/autoFill.dataTables.css"
     ],
+    "style": "css/autoFill.dataTables.css",
     "keywords": [
         "autofill",
         "excel",
