@@ -3,7 +3,7 @@
     "version": "2.2.1",
     "description": "AutoFill for DataTables ",
     "files": [
-        "css/autoFill.dataTables.css"
+        "css/**/*.css"
     ],
     "style": "css/autoFill.dataTables.css",
     "keywords": [
