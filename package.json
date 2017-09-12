@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-autofill-dt",
-    "version": "2.2.1",
+    "version": "2.2.2",
     "description": "AutoFill for DataTables ",
     "files": [
         "css/**/*.css"
@@ -23,9 +23,8 @@
     },
     "dependencies": {
         "jquery": ">=1.7",
-        "datatables.net": ">=1.10.9",
-        "datatables.net-autofill": "2.2.1",
-        "datatables.net-dt": "^1.10.15"
+        "datatables.net-dt": "^1.10.15",
+        "datatables.net-autofill": "2.2.2"
     },
     "repository": {
         "type": "git",
