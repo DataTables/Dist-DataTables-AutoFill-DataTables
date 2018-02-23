@@ -3,7 +3,8 @@
     "version": "2.2.2",
     "description": "AutoFill for DataTables ",
     "files": [
-        "css/**/*.css"
+        "css/**/*.css",
+        "js/**/*.js"
     ],
     "style": "css/autoFill.dataTables.css",
     "keywords": [
@@ -29,5 +30,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-AutoFill-DataTables.git"
-    }
+    },
+    "main": "js/autoFill.dataTables.js"
 }
