@@ -1,35 +1,46 @@
 {
     "name": "datatables.net-autofill-dt",
+    "description": "AutoFill for DataTables with styling for [DataTables](https://datatables.net/)",
+    "main": "js/autoFill.dataTables.js",
+    "style": "css/autoFill.dataTables.css",
     "version": "2.3.6",
-    "description": "AutoFill for DataTables ",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "style": "css/autoFill.dataTables.css",
     "keywords": [
-        "autofill",
-        "excel",
-        "DataTables",
+        "AutoFill",
+ "Excel",
+                "Datatables",
         "jQuery",
         "table",
-        "DataTables"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-autofill": ">=2.3.6",
+        "datatables.net-dt": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-dt": "^1.10.15",
-        "datatables.net-autofill": "2.3.6"
-    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/DataTables/Dist-DataTables-AutoFill-DataTables.git"
-    },
-    "main": "js/autoFill.dataTables.js"
+    }
 }

@@ -1,13 +1,15 @@
 {
-    "css": [
-        "css/autoFill.dataTables.css",
-        "css/autoFill.dataTables.min.css"
-    ],
     "js": [
         "js/autoFill.dataTables.js",
         "js/autoFill.dataTables.min.js"
     ],
+    "css": [
+        "css/autoFill.dataTables.css",
+        "css/autoFill.dataTables.min.css"
+    ],
+    "types": [
+        "types/autoFill.dataTables.d.ts"
+    ],
     "src-repo": "http://github.com/DataTables/AutoFill",
-    "last-sync": "732a5104554a56fc25db46a6cd5e342980ea6e4a",
     "last-tag": "2.3.6"
 }

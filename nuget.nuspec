@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>datatables.net-autofill-dt</id>
         <version>2.3.6</version>
-        <description>AutoFill for DataTables</description>
+        <id>datatables.net-autofill-dt</id>
+        <description>This is AutoFill for DataTables with styling for [DataTables](https://datatables.net/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-AutoFill-DataTables.git"/>
         <authors>SpryMedia Ltd</authors>
         <projectUrl>http://datatables.net</projectUrl>
         <license type="expression">MIT</license>
-        <tags>autofill DataTables jQuery table DataTables</tags>
-        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-AutoFill-DataTables.git"/>
+        <tags>AutoFill  Excel   Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="jquery" version="1.7.0"/>
-            <dependency id="datatables.net" version="1.10.15"/>
-            <dependency id="datatables.net-autofill" version="2.3.5"/>
-            <dependency id="datatables.net-dt" version="1.10.15"/>
+            <dependency id="datatables.net-autofill" version=">=2.3.6"/>
+            <dependency id="datatables.net-dt" version=">=1.10.24"/>
         </dependencies>
         <contentFiles>
-            <files include="**/*" buildAction="Content" />
+            <files include="**/*" buildAction="Content"/>
         </contentFiles>
     </metadata>
     <files>
-        <file src="js/autofill.datatables.js" target="content\Script"/>
-        <file src="js/autofill.datatables.min.js" target="content\Script"/>
-        <file src="css/autofill.datatables.css" target="content\Content"/>
-        <file src="css/autofill.datatables.min.css" target="content\Content"/>
-
-        <file src="js/autofill.datatables.js" target="contentFiles\any\any\wwwroot\js"/>
-        <file src="js/autofill.datatables.min.js" target="contentFiles\any\any\wwwroot\js"/>
-        <file src="css/autofill.datatables.css" target="contentFiles\any\any\wwwroot\css"/>
-        <file src="css/autofill.datatables.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="js/autoFill.dataTables.js" target="content\Scripts"/>
+        <file src="js/autoFill.dataTables.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/autoFill.dataTables.min.js" target="content\Scripts"/>
+        <file src="js/autoFill.dataTables.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/autoFill.dataTables.css" target="content\Content"/>
+        <file src="css/autoFill.dataTables.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/autoFill.dataTables.min.css" target="content\Content"/>
+        <file src="css/autoFill.dataTables.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/autoFill.dataTables.d.ts" target="content\Scripts"/>
+        <file src="types/autoFill.dataTables.d.ts" target="contentFiles\any\any\wwwroot\js"/>
     </files>
 </package>
+
