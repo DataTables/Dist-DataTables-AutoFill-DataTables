@@ -3,6 +3,7 @@
     "description": "AutoFill for DataTables with styling for [DataTables](https://datatables.net/)",
     "main": "js/autoFill.dataTables.js",
     "style": "css/autoFill.dataTables.css",
+    "types": "./types/autoFill.dataTables.d.ts",
     "version": "2.3.6",
     "files": [
         "css/**/*.css",
