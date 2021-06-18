@@ -11,17 +11,17 @@
     ],
     "keywords": [
         "AutoFill",
-        "Excel",
-        "Datatables",
+ "Excel",
+                "Datatables",
         "jQuery",
         "table",
         "filter",
         "sort"
     ],
     "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-dt": "^1.10.15",
-        "datatables.net-autofill": "2.3.8"
+        "datatables.net-autofill": ">=2.3.8",
+        "datatables.net-dt": ">=1.10.26-dev",
+        "jquery": ">=1.7"
     },
     "moduleType": [
         "globals",
