@@ -4,7 +4,7 @@
     "main": "js/autoFill.dataTables.js",
     "style": "css/autoFill.dataTables.css",
     "types": "./types/autoFill.dataTables.d.ts",
-    "version": "2.3.8",
+    "version": "2.3.7",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
@@ -19,8 +19,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-autofill": ">=2.3.8",
-        "datatables.net-dt": ">=1.10.26-dev",
+        "datatables.net-autofill": ">=2.3.7",
+        "datatables.net-dt": ">=1.10.25",
         "jquery": ">=1.7"
     },
     "moduleType": [
