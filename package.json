@@ -4,7 +4,7 @@
     "main": "js/autoFill.dataTables.js",
     "style": "css/autoFill.dataTables.css",
     "types": "./types/autoFill.dataTables.d.ts",
-    "version": "2.3.9",
+    "version": "2.3.7",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -12,8 +12,8 @@
     ],
     "keywords": [
         "AutoFill",
-        "Excel",
-        "Datatables",
+ "Excel",
+                "Datatables",
         "jQuery",
         "table",
         "filter",
@@ -21,7 +21,7 @@
     ],
     "dependencies": {
         "datatables.net-autofill": ">=2.3.7",
-        "datatables.net-dt": ">=1.11.3",
+        "datatables.net-dt": ">=1.11.5",
         "jquery": ">=1.7"
     },
     "moduleType": [
