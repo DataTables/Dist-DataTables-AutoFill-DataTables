@@ -5,7 +5,7 @@
     "module": "js/autoFill.dataTables.mjs",
     "style": "css/autoFill.dataTables.css",
     "types": "./types/types.d.ts",
-    "version": "2.4.0",
+    "version": "2.5.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,8 +14,8 @@
     ],
     "keywords": [
         "AutoFill",
- "Excel",
-                "Datatables",
+        "Excel",
+        "Datatables",
         "jQuery",
         "table",
         "filter",
