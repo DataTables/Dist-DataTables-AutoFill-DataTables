@@ -5,7 +5,7 @@
     "module": "js/autoFill.dataTables.mjs",
     "style": "css/autoFill.dataTables.css",
     "types": "./types/types.d.ts",
-    "version": "2.5.1",
+    "version": "2.5.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
