@@ -8,5 +8,4 @@ import AutoFill from 'datatables.net-autofill';
 
 
 
-
 export default DataTable;
