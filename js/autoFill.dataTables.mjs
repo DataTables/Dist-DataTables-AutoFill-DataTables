@@ -1,14 +1,11 @@
-/*! DataTables styling wrapper for AutoFill
- * ©2018 SpryMedia Ltd - datatables.net/license
+/*! AutoFill default styling 3.0.0-beta.1 for DataTables
+ * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
-import jQuery from 'jquery';
 import DataTable from 'datatables.net-dt';
 import AutoFill from 'datatables.net-autofill';
-
-// Allow reassignment of the $ variable
-let $ = jQuery;
 
 
 
 export default DataTable;
+
