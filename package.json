@@ -5,7 +5,7 @@
     "module": "js/autoFill.dataTables.mjs",
     "style": "css/autoFill.dataTables.css",
     "types": "./types/autoFill.dataTables.d.ts",
-    "version": "3.0.0-beta.1",
+    "version": "3.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -21,8 +21,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-autofill": "3.0.0-beta.1",
-        "datatables.net-dt": "3.0.0-0"
+        "datatables.net-autofill": "3.0.0",
+        "datatables.net-dt": "^3"
     },
     "author": {
         "name": "SpryMedia Ltd",
