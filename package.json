@@ -37,9 +37,10 @@
     "exports": {
         ".": {
             "types": "./types/autoFill.dataTables.d.ts",
+            "style": "./css/autoFill.dataTables.css",
             "import": "./js/autoFill.dataTables.mjs",
-            "default": "./js/autoFill.dataTables.mjs",
-            "require": "./js/autoFill.dataTables.js"
+            "require": "./js/autoFill.dataTables.js",
+            "default": "./js/autoFill.dataTables.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
